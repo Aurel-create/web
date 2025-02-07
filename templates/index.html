@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des tâches</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Liste des tâches</h1>
+
+    <form action="/ajouter" method="POST">
+        <label for="titre">Titre :</label>
+        <input type="text" id="titre" name="titre" required>
+        <br>
+        <label for="description">Description :</label>
+        <textarea id="description" name="description"></textarea>
+        <br>
+        <button type="submit">Ajouter</button>
+    </form>
+
+    <ul>
+        <li>Tâche 1 - Description 1</li>
+        <li>Tâche 2 - Description 2</li>
+    </ul>
+</body>
+</html>
